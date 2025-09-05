@@ -46,7 +46,7 @@ jobs:
           name: dist-folder # A name for the artifact
           path: dist/ci-cd-practice/browser/ # The folder to upload
 
-    deploy:
+  deploy:
       needs: build
       runs-on: ubuntu-latest
 
