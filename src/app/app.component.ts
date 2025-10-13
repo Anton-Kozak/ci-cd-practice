@@ -7,5 +7,5 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'ci-cd-practice';
-  myBadVariable = 'hello';
+  private myBadVariable = 'hello';
 }
