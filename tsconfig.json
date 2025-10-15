@@ -19,10 +19,9 @@
     "target": "ES2022",
     "module": "ES2022",
     "useDefineForClassFields": false,
-    "lib": [
-      "ES2022",
-      "dom"
-    ]
+    "noUnusedLocals": false, // Handled by @typescript-eslint/no-unused-vars
+    "noUnusedParameters": false, // Also handled by @typescript-eslint/no-unused-vars
+    "lib": ["ES2022", "dom"]
   },
   "angularCompilerOptions": {
     "enableI18nLegacyMessageIdFormat": false,
